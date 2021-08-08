@@ -2,11 +2,11 @@
 
 int main()
 {
-	int otzhimaniya, podtyagivaniya, prised, press;
+	int otzhimaniya, podtyagivaniya, prised, skruchivaniya;
 
 	printf("\tОтжимания в отказ, определение нагрузки.\n");
 
-	printf("Макс. кол-во повторений в отжиманиях: ");
+	printf("Кол-во отжиманий: ");
 	scanf("%d", &otzhimaniya);
 
 	podtyagivaniya = otzhimaniya/4;
@@ -14,8 +14,8 @@ int main()
 	skruchivaniya = prised;
 
 	printf("Подтягивания = %d\n", podtyagivaniya);
-	printf("Присед = %d\n", prised);
-	printf("Скручивания = %d\n", press);
+	printf("Приседания = %d\n", prised);
+	printf("Скручивания = %d\n", skruchivaniya);
 
 	return 0;
 }
